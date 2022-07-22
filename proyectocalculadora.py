@@ -19,7 +19,7 @@ def borrar():
     i =0
 
 def operacion():
-    ecuacion = entradat.get() # .get para obtener lo que hay en la caja de texto y guardarlo en la variable ecuacion
+    ecuacion = entradat.get() 
     resultado = eval(ecuacion)
     entradat.delete(0, END)
     entradat.insert(0, resultado)
